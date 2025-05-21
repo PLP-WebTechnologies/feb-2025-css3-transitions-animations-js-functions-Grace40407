@@ -1,0 +1,8 @@
+Features Implemented
+Smooth transitions: Background color and button hover effects.
+
+JS animations: Box rotation when a theme button is clicked.
+
+Local storage: Stores and retrieves the user’s preferred theme.
+
+Reusable functions for clarity and maintainability.
