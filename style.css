@@ -1,0 +1,41 @@
+body {
+  transition: background-color 0.5s ease;
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#box {
+  margin: 2rem auto;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  transition: transform 0.5s ease-in-out;
+}
+
+.animate {
+  transform: rotate(360deg) scale(1.2);
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
